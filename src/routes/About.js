@@ -1,9 +1,9 @@
 import React from 'react';
 
-const About = () => {
+const About = ({match}) => {
     return (
         <div>
-            About
+            About {match.params.username}
         </div>
     );
 };
